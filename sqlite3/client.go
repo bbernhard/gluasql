@@ -22,6 +22,7 @@ var clientMethods = map[string]lua.LGFunction{
 	"set_timeout": clientSetTimeoutMethod,
 	"close":       clientCloseMethod,
 	"query":       clientQueryMethod,
+	"exec":        clientExecMethod,
 }
 
 func checkClient(L *lua.LState) *Client {

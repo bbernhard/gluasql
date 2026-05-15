@@ -106,5 +106,5 @@ func getLuaDbConnection() string {
 	return fmt.Sprintf(`
 		c=require 'sqlite3'.new();
 		ok, err = c:open("%s", { cache = "%s", mode = "%s" });
-	`, "test.db", "shared", "ro")
+	`, "test.db", "shared", "rw")
 }
