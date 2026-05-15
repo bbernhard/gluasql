@@ -1,4 +1,4 @@
-module github.com/tengattack/gluasql
+module github.com/bbernhard/gluasql
 
 go 1.19
 
