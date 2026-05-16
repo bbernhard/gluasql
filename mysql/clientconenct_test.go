@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/require"
 	lua "github.com/yuin/gopher-lua"
 
-	"github.com/tengattack/gluasql"
-	gluamysql "github.com/tengattack/gluasql/mysql"
-	util "github.com/tengattack/gluasql/util"
+	"github.com/bbernhard/gluasql"
+	gluamysql "github.com/bbernhard/gluasql/mysql"
+	util "github.com/bbernhard/gluasql/util"
 )
 
 func TestParseConnectionString(t *testing.T) {

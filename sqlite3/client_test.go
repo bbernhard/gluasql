@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/bbernhard/gluasql"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/stretchr/testify/assert"
-	"github.com/tengattack/gluasql"
 	lua "github.com/yuin/gopher-lua"
 )
 

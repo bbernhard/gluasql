@@ -5,10 +5,10 @@ import (
 	"reflect"
 	"testing"
 
+	util "github.com/bbernhard/gluasql/util"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	util "github.com/tengattack/gluasql/util"
-	"github.com/yuin/gopher-lua"
+	lua "github.com/yuin/gopher-lua"
 )
 
 func testLuaState() *lua.LState {

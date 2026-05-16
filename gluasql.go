@@ -1,9 +1,9 @@
 package gluasql
 
 import (
-	mysql "github.com/tengattack/gluasql/mysql"
-	sqlite3 "github.com/tengattack/gluasql/sqlite3"
-	"github.com/yuin/gopher-lua"
+	mysql "github.com/bbernhard/gluasql/mysql"
+	sqlite3 "github.com/bbernhard/gluasql/sqlite3"
+	lua "github.com/yuin/gopher-lua"
 )
 
 func Preload(L *lua.LState) {

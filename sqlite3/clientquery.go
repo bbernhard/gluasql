@@ -3,9 +3,9 @@ package gluasql_sqlite3
 import (
 	"reflect"
 
+	util "github.com/bbernhard/gluasql/util"
 	"github.com/junhsieh/goexamples/fieldbinding/fieldbinding"
-	util "github.com/tengattack/gluasql/util"
-	"github.com/yuin/gopher-lua"
+	lua "github.com/yuin/gopher-lua"
 )
 
 func clientQueryMethod(L *lua.LState) int {

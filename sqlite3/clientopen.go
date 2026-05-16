@@ -5,10 +5,9 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/yuin/gopher-lua"
-
+	util "github.com/bbernhard/gluasql/util"
 	_ "github.com/mattn/go-sqlite3"
-	util "github.com/tengattack/gluasql/util"
+	lua "github.com/yuin/gopher-lua"
 )
 
 func clientOpenMethod(L *lua.LState) int {

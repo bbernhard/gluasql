@@ -8,7 +8,7 @@ A native Go implementation of SQL client for the [GopherLua](https://github.com/
 
 ```go
 import (
-	"github.com/tengattack/gluasql"
+	"github.com/bbernhard/gluasql"
 )
 
 // Bring up a GopherLua VM
@@ -23,7 +23,7 @@ Or if we only need `mysql` module:
 
 ```go
 import (
-	mysql "github.com/tengattack/gluasql/mysql"
+	mysql "github.com/bbernhard/gluasql/mysql"
 )
 
 // Bring up a GopherLua VM
@@ -83,10 +83,10 @@ end
 ## Testing
 
 ```bash
-$ go test -coverprofile=/tmp/go-code-cover github.com/tengattack/gluasql...
-ok      github.com/tengattack/gluasql/mysql     0.020s  coverage: 79.9% of statements
-ok      github.com/tengattack/gluasql/sqlite3   0.019s  coverage: 71.3% of statements
-ok      github.com/tengattack/gluasql/util      0.015s  coverage: 76.9% of statements
+$ go test -coverprofile=/tmp/go-code-cover github.com/bbernhard/gluasql...
+ok      github.com/bbernhard/gluasql/mysql     0.020s  coverage: 79.9% of statements
+ok      github.com/bbernhard/gluasql/sqlite3   0.019s  coverage: 71.3% of statements
+ok      github.com/bbernhard/gluasql/util      0.015s  coverage: 76.9% of statements
 ```
 
 ## License

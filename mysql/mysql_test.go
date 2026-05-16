@@ -3,10 +3,10 @@ package gluasql_mysql_test
 import (
 	"testing"
 
+	"github.com/bbernhard/gluasql"
+	util "github.com/bbernhard/gluasql/util"
 	"github.com/stretchr/testify/assert"
-	"github.com/tengattack/gluasql"
-	util "github.com/tengattack/gluasql/util"
-	"github.com/yuin/gopher-lua"
+	lua "github.com/yuin/gopher-lua"
 )
 
 func TestNew(t *testing.T) {

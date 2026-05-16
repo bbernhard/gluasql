@@ -3,9 +3,9 @@ package gluasql_mysql_test
 import (
 	"testing"
 
+	"github.com/bbernhard/gluasql"
 	"github.com/stretchr/testify/assert"
-	"github.com/tengattack/gluasql"
-	"github.com/yuin/gopher-lua"
+	lua "github.com/yuin/gopher-lua"
 )
 
 func TestClientSetTimeout(t *testing.T) {

@@ -3,9 +3,9 @@ package gluasql_sqlite3_test
 import (
 	"testing"
 
+	"github.com/bbernhard/gluasql"
+	util "github.com/bbernhard/gluasql/util"
 	"github.com/stretchr/testify/assert"
-	"github.com/tengattack/gluasql"
-	util "github.com/tengattack/gluasql/util"
 	lua "github.com/yuin/gopher-lua"
 )
 

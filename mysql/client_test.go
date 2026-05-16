@@ -6,13 +6,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/bbernhard/gluasql"
 	sqle "github.com/dolthub/go-mysql-server"
 	"github.com/dolthub/go-mysql-server/memory"
 	"github.com/dolthub/go-mysql-server/server"
 	"github.com/dolthub/go-mysql-server/sql"
 	"github.com/dolthub/go-mysql-server/sql/types"
 	"github.com/stretchr/testify/assert"
-	"github.com/tengattack/gluasql"
 
 	lua "github.com/yuin/gopher-lua"
 )
