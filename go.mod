@@ -1,17 +1,20 @@
 module github.com/bbernhard/gluasql
 
-go 1.19
+go 1.24.0
+
+toolchain go1.24.6
 
 require (
 	github.com/dolthub/go-mysql-server v0.14.1-0.20230203234751-35092f80aa59
-	github.com/go-sql-driver/mysql v1.7.0
+	github.com/go-sql-driver/mysql v1.10.0
 	github.com/junhsieh/goexamples v0.0.0-20210908032526-acdd3160140b
-	github.com/mattn/go-sqlite3 v1.14.16
+	github.com/mattn/go-sqlite3 v1.14.44
 	github.com/stretchr/testify v1.8.1
-	github.com/yuin/gopher-lua v1.1.0
+	github.com/yuin/gopher-lua v1.1.2
 )
 
 require (
+	filippo.io/edwards25519 v1.2.0 // indirect
 	github.com/cespare/xxhash v1.1.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dolthub/vitess v0.0.0-20230201234433-864c7d109df8 // indirect
